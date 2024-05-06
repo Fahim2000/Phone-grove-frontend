@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In this application, users can browse mobile phones from three different brands: Xiaomi, Apple, and Samsung. By selecting a brand, users can see the available phones from that brand. Additionally, users can add phones to the list from three specific brands—Xiaomi, Samsung, or Apple. The app also allows users to update information for individual phones.
