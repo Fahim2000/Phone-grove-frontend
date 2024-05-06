@@ -29,12 +29,7 @@ const UpdatePhone = () => {
           .then((data) => {
             console.log(data);
             if (data.modifiedCount > 0) {
-              // Swal.fire({
-              //     title: 'Success!',
-              //     text: 'Coffee Updated Successfully',
-              //     icon: 'success',
-              //     confirmButtonText: 'Cool'
-              // })
+       
               alert("updated successfully")
             }
           });
@@ -46,7 +41,7 @@ const UpdatePhone = () => {
     <div className="">
       <h2 className="text-3xl font-extrabold">Update a Phone</h2>
       <form onSubmit={handleUpdatePhone}>
-        {/* form name and quantity row */}
+      
         <div className="md:flex mb-8">
           <div className="form-control md:w-1/2">
             <label className="label">
@@ -77,7 +72,7 @@ const UpdatePhone = () => {
             </label>
           </div>
         </div>
-        {/* form supplier row */}
+       
         <div className="md:flex mb-8">
           <div className="form-control md:w-1/2">
             <label className="label">
@@ -108,7 +103,7 @@ const UpdatePhone = () => {
             </label>
           </div>
         </div>
-        {/* form category and details row */}
+       
         <div className="md:flex mb-8">
           <div className="form-control md:w-1/2">
             <label className="label">
@@ -139,7 +134,7 @@ const UpdatePhone = () => {
             </label>
           </div>
         </div>
-        {/* form Photo url row */}
+       
 
         <input type="submit" value="Update a Phone" className="btn btn-block" />
       </form>

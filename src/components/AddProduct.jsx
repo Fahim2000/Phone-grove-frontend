@@ -27,12 +27,7 @@ const AddProduct = () => {
             .then(data => {
                 console.log(data);
                 if(data.insertedId){
-                    // Swal.fire({
-                    //     title: 'Success!',
-                    //     text: 'Coffee Added Successfully',
-                    //     icon: 'success',
-                    //     confirmButtonText: 'Cool'
-                    //   })
+                
                     alert("Success")
                 }
             })
@@ -43,7 +38,7 @@ const AddProduct = () => {
         <div className="">
             <h2 className="text-3xl font-extrabold">Add a Phone</h2>
             <form onSubmit={handleAddPhone}>
-                {/* form name and quantity row */}
+             
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
@@ -62,7 +57,7 @@ const AddProduct = () => {
                         </label>
                     </div>
                 </div>
-                {/* form supplier row */}
+               
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
@@ -81,7 +76,7 @@ const AddProduct = () => {
                         </label>
                     </div>
                 </div>
-                {/* form category and details row */}
+              
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
@@ -100,7 +95,7 @@ const AddProduct = () => {
                         </label>
                     </div>
                 </div>
-                {/* form Photo url row */}
+               
                
                 <input type="submit" value="Add a Phone" className="btn btn-block" />
 
